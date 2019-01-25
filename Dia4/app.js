@@ -46,10 +46,12 @@ if (age < 14 || age > 90) {
 
 let userName = prompt("Login.");
 let pwd;
-
+/*
 function cancel(str) {
   return str == null || str == "";
-}
+}*/
+
+let cancel = str => str == null || str == "";
 
 if (userName == "Admin") {
   do {
