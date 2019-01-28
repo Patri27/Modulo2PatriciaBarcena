@@ -156,8 +156,8 @@ b > 0 ? pow(a, b) : alert("Please write a positive number.");
 */
 
 //14
-/*
-let ask = (question, yes, no) => {
+
+const ask = (question, yes, no) => {
   if (confirm(question)) yes();
   else no();
 };
@@ -167,4 +167,3 @@ ask(
   () => alert("You agreed."),
   () => alert("You canceled the execution.")
 );
-*/

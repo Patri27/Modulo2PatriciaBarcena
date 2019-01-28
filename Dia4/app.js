@@ -49,9 +49,10 @@ let pwd;
 /*
 function cancel(str) {
   return str == null || str == "";
-}*/
+}
+*/
 
-let cancel = str => str == null || str == "";
+const cancel = str => str == null || str == "";
 
 if (userName == "Admin") {
   do {
